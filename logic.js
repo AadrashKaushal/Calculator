@@ -1,4 +1,3 @@
-if(typeof window !== 'undefined'){
     screenvalue = "";
 let screen =  document.getElementById('screen');
 buttons = document.querySelectorAll('input.button');
@@ -23,6 +22,6 @@ for (items of buttons) {
     
     })
 }
-}
+
 
 
